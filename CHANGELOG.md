@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v4.3.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
 
+### Added
+
+* firmware: add out-of-the-box support for some Broadcom wireless cards
+
 ### Changed
 
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)

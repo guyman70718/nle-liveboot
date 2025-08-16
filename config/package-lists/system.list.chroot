@@ -319,6 +319,9 @@ firmware-ipw2x00
 firmware-iwlwifi
 amd64-microcode
 intel-microcode
+broadcom-sta-dkms
+broadcom-sta-source
+broadcom-sta-common
 #Alt: firmware-linux-nonfree
 #Alt: firmware-misc-nonfree
 #Alt: firmware-amd-graphics
