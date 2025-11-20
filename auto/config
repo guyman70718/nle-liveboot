@@ -20,7 +20,7 @@ lb config noauto \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
 --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
---distribution bookworm \
+--distribution trixie \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \

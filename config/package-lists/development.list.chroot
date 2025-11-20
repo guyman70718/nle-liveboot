@@ -1,6 +1,10 @@
 libusb-1.0-0-dev
 pkg-config
 libudev-dev
+curl 
+build-essential 
+gcc 
+pkg-config
 
 #Title: Development
 #Section: Version control
