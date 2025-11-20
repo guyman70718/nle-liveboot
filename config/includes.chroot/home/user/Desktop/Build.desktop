@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NLEBuild
+Comment=Description of what this does
+Exec=/home/user/Desktop/NoLongerEvil-Thermostat/prepare.sh
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;

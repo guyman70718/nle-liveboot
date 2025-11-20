@@ -1,7 +1,7 @@
 menu hshift 0
 menu width 82
 
-menu title dlc 4.2.1 - Boot menu
+menu title NoLongerEvil Live - Boot menu
 include stdmenu.cfg
 
 label live-@FLAVOUR@-english
@@ -10,19 +10,6 @@ label live-@FLAVOUR@-english
         linux @LINUX@
         initrd @INITRD@
         append @APPEND_LIVE@ locales=en_US.UTF-8
-
-label live-@FLAVOUR@-french
-        menu label ^Live (@FLAVOUR@) (French)
-        menu default
-        linux @LINUX@
-        initrd @INITRD@
-        append @APPEND_LIVE@ locales=fr_FR.UTF-8
-
-label installgui
-    menu label ^Install
-	linux /install/gtk/vmlinuz
-	initrd /install/gtk/initrd.gz
-	append video=vesa:ywrap,mtrr vga=788 @APPEND_INSTALL@ --- quiet
 
 menu begin advanced
 	menu title Advanced options

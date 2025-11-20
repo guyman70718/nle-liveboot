@@ -1,3 +1,7 @@
+libusb-1.0-0-dev
+pkg-config
+libudev-dev
+
 #Title: Development
 #Section: Version control
 git

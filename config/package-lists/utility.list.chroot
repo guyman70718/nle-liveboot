@@ -282,8 +282,8 @@ hunspell-fr
 ispell
 iamerican
 ibritish
-ifrench-gut
-wfrench
+#ifrench-gut
+#wfrench
 #Alt: xfce4-dict
 #Alt: gnome-dictionary
 #Alt: goldendict
