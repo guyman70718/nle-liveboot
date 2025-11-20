@@ -15,3 +15,6 @@ echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.co
 # Install Node.js
 apt-get update
 apt-get install -y nodejs
+
+cd /home/user/NoLongerEvil-Thermostat/firmware/installer/
+npm install

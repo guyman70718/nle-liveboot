@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NoLongerEvil
+Comment=Install NoLongerEvil on Nest Thermostat Device
+Path=/home/user/NoLongerEvil-Thermostat/firmware/installer
+Exec=npm run electron:dev -- --no-sandbox
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;

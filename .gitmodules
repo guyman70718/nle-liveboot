@@ -1,0 +1,4 @@
+[submodule "config/includes.chroot/home/user/NoLongerEvil-Thermostat"]
+	path = config/includes.chroot/home/user/NoLongerEvil-Thermostat
+	url = https://github.com/codykociemba/NoLongerEvil-Thermostat.git
+	branch = open-source-prototype
