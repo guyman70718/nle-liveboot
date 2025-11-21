@@ -1,59 +1,33 @@
-# debian-live-config
+# NoLongerEvil Live Boot Enviornment
 
-[![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)](https://gitlab.com/nodiscc/debian-live-config/-/pipelines)
+Debian image based on [debian-live-config](https://github.com/nodiscc/debian-live-config) with a preconfigured enviornment to install [NoLongerEvil](https://github.com/codykociemba/NoLongerEvil-Thermostat) on Gen1 and Gen2 Nest Thermostats.
 
-[Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
-
-![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-4.0.0-main.png)
+<div style="text-align: center;">
+  <img width="300" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/e8b8fbcd-26c8-4727-af1e-3557411f0865" />
+</div>
 
 ## Features
 
-- Ready-to-use operating system for personal computers/workstations
-- Preinstalled, preconfigured software for common tasks (office, multimedia, network...)
-- Good out-of-the-box experience with a focus on usability
-- Installation time < 10 minutes, without Internet access
-- Able to run [live](https://en.wikipedia.org/wiki/Live_USB) from USB drive (no installation required)
-- Fits on a 2GB USB drive
-- Only uses official Debian [stable](https://wiki.debian.org/DebianStable) + [backports](https://wiki.debian.org/Backports) packages and as few third-party components as possible
-- Reliable, low maintenance
-- Lightweight/low resource usage, good performance on low-end or recycled hardware
-- Proprietary drivers/firmware for good compatibility with recent hardware
-
-This repository contains the `live-build` configuration and scripts used to build a custom Debian ISO image. See [Building a custom Debian ISO image](doc/md/custom.md).
-
+- Ready-to-use, no installations required
+- Boot on any x86_64 based machine (Windows)
 
 ## Download
 
-**[![](doc/md/download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/4.2.1/debian-live-config-4.2.1-debian-bookworm-amd64.iso)** (64-bit)
+**[![](doc/md/download.png) Download .ISO image](https://mega.nz/file/SAsHWRCZ#m1PtiEXC4DBZXCOXhCtO9J9gImhQv-NFxfuokLFPjng)** (64-bit)
 
+Unfortunately, the ISO image exceeds the 2 GB limit set for GitHub Releases
 
 ## Documentation
 
-- [Download and installation](doc/md/download-and-installation.md)
-- [Usage](doc/md/usage.md)
-- [Software: Utility](doc/md/packages/utility.md)
-- [Software: Internet and network](doc/md/packages/network.md)
-- [Software: Audio and video](doc/md/packages/audio-video.md)
-- [Software: Office](doc/md/packages/office.md)
-- [Software: Graphics](doc/md/packages/graphics.md)
-- [Software: System](doc/md/packages/system.md)
-- [Software: Development](doc/md/packages/development.md)
-- [Software: Games](doc/md/packages/games.md)
-- [Software: Extras](doc/md/packages/extras.md)
-- [Changelog](CHANGELOG.md)
-
+- [Rufus Tutorial (How to use this iso?)](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview)
+- [NoLongerEvil Main Site](https://nolongerevil.com/)
+- [NoLongerEvil Main Repo](https://github.com/codykociemba/NoLongerEvil-Thermostat)
+- [NoLongerEvil Installation Tutorial](https://docs.nolongerevil.com/hosted/installation)
 
 ## Screenshots
 
-![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-4.0.0-main.png)
-
-![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-4.0.0-windows.png)
-
-
-## Source code
-
-- [Gitlab](https://gitlab.com/nodiscc/debian-live-config) (mirror)
-- [Github](https://github.com/nodiscc/debian-live-config) (mirror)
+<img width="638" height="481" alt="image" src="https://github.com/user-attachments/assets/38af70aa-ee33-4c7b-890a-4300a0b2fccd" />
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/6a701ae6-e8b2-41bf-8567-786940ba9450" />
 
 
 ## License
