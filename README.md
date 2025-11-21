@@ -13,7 +13,7 @@ Debian image based on [debian-live-config](https://github.com/nodiscc/debian-liv
 
 ## Download
 
-**[![](doc/md/download.png) Download .ISO image](https://mega.nz/file/SAsHWRCZ#m1PtiEXC4DBZXCOXhCtO9J9gImhQv-NFxfuokLFPjng)** (64-bit)
+**[![](doc/md/download.png) Download .ISO image](https://mega.nz/file/uNsSRTST#W3cso7eDgDHtBBLzwIzPlczqjrZ2Ls2qCMoyf-c0O3Y)** (64-bit)
 
 Unfortunately, the ISO image exceeds the 2 GB limit set for GitHub Releases
 
